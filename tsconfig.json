@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "include": [
+      "./src/**/*",
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@icons/*": ["./src/assets/icons/*"],
+      "@images/*": ["./src/assets/images/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@components/*": ["./src/components/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@store/*": ["./src/store/*"],
+      "@routes/*": ["./src/routes/*"]
+    }
+  },
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "declaration": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "strict": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types",
+    ]
+}
